@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+header {
+    background-color: gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.banner_img {
+    width: 300px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 200px;
+}
