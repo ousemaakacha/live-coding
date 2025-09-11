@@ -1,10 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.title{
+h2.title {
     color: red;
+}
+
+
+input[type="submit"] {
+    border: 0;
+}
+
+div p {
+    color: red;
+}
+
+div>strong {
+    color: blue
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divisore,.ciao,.hello {
+    background-color: green;
+    color: yellow;
 }
